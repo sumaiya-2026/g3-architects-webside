@@ -121,6 +121,29 @@ main > section{
     font-weight: 500;
 }
 
+/* features section related styles */
+
+.features{
+    gap: 140px;
+}
+#feature-section-title{
+     border-left: 5px solid #FF900E;
+     padding-left:  20px; 
+}
+
+.feature-card{
+      padding: 30px;
+      border-radius: 8px;
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+    margin-bottom: 20px;
+}
+.feature-card .feature-title{
+    font-weight: 600;
+    font-size: 1.25rem;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  
+}
 /* some facts relaterd styles */
 .facts-container{
     display:grid;
@@ -190,12 +213,13 @@ main > section{
         gap: 24px;
     }
 
+
     .sponsor-companies{
         justify-items: center;
         gap:50px;
     }
 
-    .our-features{
+    .our-features{                       
         margin-left: 20px;
     }
  }
@@ -215,4 +239,4 @@ main > section{
         gap:50px;
         justify-items: center;
     }
- }
+ }   
